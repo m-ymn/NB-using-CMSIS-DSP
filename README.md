@@ -8,5 +8,5 @@ The repo contains python code for training the Guassian Naive Bayes Classifier u
 
 Then the same parameters are used in CMSIS DSP naive bayes algorithm and predictions are computed on Stm32f4 mcu.
 
-##Testing
+## Testing
 The Image of UART console showing input values and predicted values by microcontroller
