@@ -15,7 +15,7 @@ The Basic job of classifier is to take some inputs and classify them into given 
 After we train the naive bayes algorithm for a set of inputs and therefore we get the parameters like Gaussian averages, Variances we load the parameters into the arm CMSIS_dsp naive bayes function and compute the probabilty given the inputs whether using a program or from sensors.
 
 In case processing of inputs using microcontroller we can either code the naive bayes function by ourselves or we have to use the CMSIS-DSP provided function . In CMSIS-DSP the same function has 3 variants depending on the processor type like Neon, Helium which use architecture specific instructions to do fast calculation.
-The naive bayes function calculates probability for the given inputs and then i have implemented sleep function to put the processor in sleep mode for 10ms Curent(12.2mA), 1sec current(6.6mA) and i have used timer interrupt to wakeup the processor from sleep mode and again calculate the probability. After the probability is calculated i used uart to display it on console.
+The naive bayes function calculates probability for the given inputs and then i have implemented sleep function to put the processor in sleep mode for 10ms Avg Curent(12.2mA), 1sec Avg current(6.6mA) and i have used timer interrupt to wakeup the processor from sleep mode and again calculate the probability. After the probability is calculated i used uart to display it on console.
 
 I have used the below Oscillator Configuration for Time Period Calculation:
 * APB1 TIM3   = 50 Mhz  (internal OSC PLL used)
