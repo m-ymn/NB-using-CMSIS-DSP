@@ -10,3 +10,6 @@ Then the same parameters are used in CMSIS DSP naive bayes algorithm and predict
 
 ## Testing
 The Image of UART console showing input values and predicted values by microcontroller
+
+![alt text](uart-capture.JPG)
+
